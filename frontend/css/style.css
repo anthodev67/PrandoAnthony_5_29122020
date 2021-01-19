@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "edoregular";
+  src: url("edo-webfont.eot");
+  src: url("edo-webfont.eot?#iefix") format("embedded-opentype"),
+    url("edo-webfont.woff2") format("woff2"),
+    url("edo-webfont.woff") format("woff"),
+    url("edo-webfont.ttf") format("truetype"),
+    url("edo-webfont.svg#edoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: #f3e9f1;
+}
+header,
+ul {
+  display: flex;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+li {
+  margin: 1em;
+}
+h1,
+footer {
+  text-align: center;
+}
+footer {
+  background: linear-gradient(to right, #ce7d4a, #905cf9);
+  color: #ffffff;
+  height: 50px;
+}
